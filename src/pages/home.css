@@ -1,0 +1,77 @@
+.name {
+    font-weight: 400;
+    size: 50;
+    padding: 10mm;
+    color: #223127;
+    margin-top: -20mm;
+    margin-left: 10mm;
+}
+
+.greeting {
+    color: #223127;
+    margin-top: -20mm;
+    margin-left: 50mm;
+}
+
+.myPic {
+    width: 488px;
+    height: 650px;
+    margin-top: -125mm;
+    margin-left: 25mm;
+}
+
+.aboutMePara {
+    justify-self: end;
+}
+
+.gridContain {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 50%;
+    margin-left: auto;
+    margin-right: 0;
+
+    
+
+    @media (min-width: 768px) {
+        width: 48%; 
+        margin-left: auto;
+        margin-right: 0;
+      }
+}
+
+.gridContainHome {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin-left: 0;
+    margin-right: auto;
+  
+    @media (min-width: 768px) {
+      width: 100%;
+      grid-template-columns: 1fr;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  
+
+@media (prefers-color-scheme: light) {
+    :root {
+      background: linear-gradient(
+      to right,
+      #ECEBE4 0%,
+      #ECEBE4 50%,
+      #223127 50%,
+      #223127 100%
+    );
+    }
+    a:hover {
+      color: #ffffff;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  }
+

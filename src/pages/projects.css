@@ -1,0 +1,64 @@
+.numOne {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #223127;
+}
+
+.numTwo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #223127;
+}
+
+.numThree {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #223127;
+}
+
+.numFour {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #223127;
+}
+
+.numFive {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #223127;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #223127;
+}
+
+.vidContainer {
+    display: flex;
+    flex-direction: column; /* Display items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh;
+    width: 97.5%;
+    margin-left: 10mm;
+    margin-top: -175mm;
+  
+    @media (min-width: 768px) {
+      flex-direction: row; /* Display items horizontally on larger screens */
+      justify-content: flex-end; /* Align items to the start (left) of the container */
+    }
+  
+    @media (min-width: 2561px) {
+      width: 50%;
+      margin-left: auto;
+      margin-right: 0;
+    }
+  }
+  
+  .vid {
+    width: 700px;
+  
+    @media (min-width: 2561px) {
+      width: 950px;
+    }
+  }

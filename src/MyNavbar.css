@@ -1,0 +1,46 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    
+    margin: 0mm;
+}
+
+nav .title {
+    font-size: 1.5rem;
+    justify-content: left;
+    display: flex;
+    margin: 5mm;
+    padding: 2mm;
+    outline: auto;
+    outline-color: #CE4760;
+    font-weight: bold;
+    color: #483D3F;
+}
+
+nav .title:hover {
+    background-color: #CE4760;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    outline: auto;
+    color: #ECEBE4;
+    outline-color: #CE4760;
+}
+
+nav ul li a:hover {
+    background-color: #CE4760;
+}
